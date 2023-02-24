@@ -1,0 +1,840 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    position: relative;
+}
+
+
+/* Header */
+.navbar {
+    z-index: 100;
+    transition: all 1s;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #dc4f72 !important;
+    color: white;
+}
+
+header nav .container .navbar-brand {
+    color: rgb(238, 88, 113) !important;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+header nav .container .navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+header nav .container .navbar-collapse ul li .active {
+    color: rgb(245, 101, 125);
+}
+
+header nav .container .navbar-collapse ul li button {
+    border: 1px solid rgb(245, 101, 125);
+    color: rgb(245, 101, 125);
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+header nav .container .navbar-collapse ul li button:hover {
+    background-color: rgb(245, 101, 125) !important;
+    color: white;
+}
+
+header nav .container .navbar-collapse ul li {
+    position: relative;
+    text-align: center;
+}
+
+header nav .container .navbar-collapse ul li a::before {
+    content: "";
+    width: 0%;
+    height: 2.5px;
+    border-radius: 20px;
+    background-color: rgb(245, 101, 125);
+    position: absolute;
+    bottom: 5px;
+    transition: all 1s;
+}
+
+.dropdown-item {
+    text-align: left !important;
+}
+
+header nav .container .navbar-collapse ul li .dropdown-item::before {
+    content: "";
+    width: 0%;
+    height: 2.5px;
+    border-radius: 20px;
+    background-color: rgb(245, 101, 125);
+    position: absolute;
+    bottom: 2px;
+    transition: all 1s;
+}
+
+header nav .container .navbar-collapse ul li .dropdown-item:hover::before {
+    width: 20%;
+}
+
+header nav .container .navbar-collapse ul li a:hover::before {
+    width: 40%;
+}
+
+header nav .container .navbar-collapse ul li a {
+    transition: all 0.5s;
+}
+
+header nav .container .navbar-collapse ul li a:hover {
+    color: rgb(245, 101, 125) !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(245, 101, 125) !important;
+}
+
+/* Carousel */
+.carousel {
+    padding-top: 90px;
+    background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: all 1s;
+}
+
+.carousel .container .row .carousel_left button {
+    border: 1px solid rgb(245, 101, 125);
+    color: rgb(245, 101, 125);
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.carousel .container .row .carousel_left button:hover {
+    background-color: rgb(245, 101, 125) !important;
+    color: white;
+}
+
+.carousel .container .row .carousel_right img {
+    transform: rotate(180deg);
+}
+
+.carousel .container .row .carousel_left h1 {
+    font-weight: 500;
+}
+
+/* chooseUs */
+.chooseUs {
+    transition: all 1s;
+}
+
+.chooseUs .container h5 {
+    color: rgb(245, 101, 125);
+}
+
+.chooseUs .container h1 {
+    font-weight: 500;
+}
+
+.chooseUs .container .wrapper .row .col-12 .wrapper {
+    transition: all 0.7s;
+}
+
+.chooseUs .container .wrapper .row .col-12 .wrapper:hover {
+    transform: translateY(-10px);
+    background-color: white !important;
+    box-shadow: 0px 1px 14px -2px rgba(144, 127, 127, 0.75);
+}
+
+/* about */
+.about {
+    transition: all 1s;
+}
+
+.about .container .aboutus_left h5 {
+    color: rgb(245, 101, 125);
+}
+
+.about .container .aboutus_left button {
+    background-color: rgb(245, 101, 125) !important;
+    border: 1px solid rgb(245, 101, 125);
+    color: white;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.about .container .aboutus_left button:hover {
+    background-color: rgb(247, 52, 84) !important;
+}
+
+.about .container .aboutus_right img {
+    transition: all 1s;
+}
+
+.about .container .aboutus_right img:hover {
+    transform: translateY(-20px);
+}
+
+.about .container .wrapper .row .col-12 p {
+    color: rgb(245, 101, 125);
+}
+
+.about .container .wrapper .row .col-12 .wrapper {
+    transition: all 0.7s;
+}
+
+.about .container .wrapper .row .col-12 .wrapper:hover {
+    background-color: white !important;
+    box-shadow: 0px 1px 14px -2px rgba(144, 127, 127, 0.75);
+}
+
+/* READ MORE */
+.readmore {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.readmore .container .wrapper {
+    color: white;
+}
+
+.readmore .container .wrapper button:hover {
+    background-color: rgb(243, 236, 236) !important;
+}
+
+.readmore .container .wrapper button {
+    transition: all 0.7s;
+}
+
+/* solution */
+.solution {
+    transition: all 1s;
+}
+
+.solution .container h1 {
+    color: rgb(245, 101, 125);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.solution .row .col-12 .card .img_holder p {
+    right: 0 !important;
+    color: white;
+    padding: 4%;
+    background-color: rgb(245, 101, 125);
+    border-top-right-radius: 0.2rem;
+}
+
+.card-1 .card-body p:first-child {
+    background-color: rgba(238, 97, 120, 0.2);
+    color: #dc4f72;
+    font-size: 13px;
+}
+
+.card-2 .card-body p:first-child {
+    background-color: rgba(0, 128, 0, 0.2);
+    color: #008000;
+    font-size: 13px;
+}
+
+.card-3 .card-body p:first-child {
+    background-color: rgba(0, 0, 255, 0.2);
+    color: #0000ff;
+    font-size: 13px;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-body a span {
+    color: rgb(245, 101, 125);
+}
+
+.card img {
+    filter: grayscale(100);
+    transition: all 0.5s;
+}
+
+.card:hover img {
+    filter: grayscale(0);
+}
+
+.card {
+    transition: all 0.7s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.18);
+}
+
+.card-body i {
+    font-size: 13px;
+    transition: all 1s;
+}
+
+.card:hover i {
+    transform: translateX(5px);
+}
+
+
+
+/* Questions */
+.Questions {
+    background-color: #f7f9fc;
+}
+
+.Questions .container .header-section h6 {
+    color: rgb(245, 101, 125);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+
+.Questions .container .header-section p {
+    color: #7c8ead;
+}
+
+.Questions .row .accordion .accordion-item p {
+    color: #91949a;
+}
+
+.Questions .row .accordion .accordion-item h2 .accordion-button {
+    font-weight: 400;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+
+
+/* Projects */
+.projects .container h1 {
+    color: #dc4f72;
+}
+
+.projects .container .project_list ul .nav-item {
+    width: calc(100%/3);
+}
+
+.projects .container .project_list ul .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.projects .nav-link {
+    color: black;
+    border: none !important;
+    font-weight: bold;
+    border-bottom: 3px solid gray !important;
+}
+
+.projects .nav-link:hover {
+    color: black;
+}
+
+.projects .nav-tabs .nav-link.active {
+    color: #dc4f72;
+    background-color: white;
+    border-bottom: 3px solid #dc4f72 !important;
+}
+
+.tab-content .tab-pane .wrapper .row .col-lg-6 button {
+    border: 1px solid rgb(245, 101, 125) !important;
+    color: rgb(245, 101, 125) !important;
+    font-weight: 500;
+    transition: all 0.5s;
+    font-weight: 500;
+}
+
+.tab-content .tab-pane .wrapper .row .col-lg-6 button:hover {
+    background-color: rgb(245, 101, 125) !important;
+    color: white !important;
+}
+
+.tab-content .tab-pane .wrapper .row .col-lg-6 img {
+    transition: all 1s;
+}
+
+.tab-content .tab-pane .wrapper .row .col-lg-6 img:hover {
+    transform: translateY(-10px);
+}
+
+
+/* testimonials */
+.testimonials .container .owl-carousel .item .wrapper .img_wrapper img {
+    width: 100px !important;
+    height: 100px;
+    border: 3px solid #dc4f72;
+}
+
+.testimonials .container .header-section h6 {
+    color: #dc4f72;
+}
+
+.testimonials {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/b2.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.testimonials .owl-carousel .item .content_wrapper .name h4 {
+    color: #dc4f72;
+    font-weight: 400;
+}
+
+.testimonials .owl-carousel .item .content_wrapper .name p {
+    font-weight: 100;
+}
+
+.testimonials .owl-carousel .content_wrapper span {
+    position: absolute;
+    top: 7%;
+    left: 33%;
+    color: rgb(187, 180, 180);
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 40px;
+    height: 5px;
+    margin: 5px 7px;
+    background: white;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #dc4f72;
+}
+
+/* Build */
+
+.book_demo {
+    border: 1px solid #dc4f72;
+    color: #dc4f72;
+    transition: all 1s;
+}
+
+.book_demo:hover {
+    background-color: rgb(245, 101, 125) !important;
+    color: white !important;
+    border: 1px solid rgb(245, 101, 125);
+}
+
+.get_started {
+    background-color: rgb(245, 101, 125) !important;
+    color: white !important;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.get_started:hover {
+    background-color: rgb(207, 78, 99) !important;
+    border: none !important;
+}
+
+/* footer */
+footer .container .row .links a {
+    transition: all 0.5s;
+}
+
+footer .container .row .links a:hover {
+    color: rgb(207, 78, 99) !important;
+}
+
+footer .container .updates input {
+    height: 45px;
+}
+
+footer .container .updates button {
+    color: white;
+    background-color: #dc4f72 !important;
+}
+
+footer .container .updates {
+    box-shadow: -1px 5px 5px 5px rgba(0, 0, 0, 0.08) !important;
+}
+
+footer .container .updates p {
+    font-weight: 100;
+    width: 90%;
+}
+
+footer .container .copyright .copyright_right a {
+    transition: all 0.5s;
+}
+
+footer .container .copyright .copyright_right a:hover {
+    color: rgb(207, 78, 99) !important;
+}
+
+footer{
+    background-color: #f7f9fc;
+}
+
+footer .container .row{
+    padding-left: 75px;
+}
+
+footer .container .row h3{
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .chooseUs .container p {
+        width: 100% !important;
+    }
+
+    .readmore .container .wrapper {
+        width: 100% !important;
+    }
+
+    .solution .container .solution_upper p {
+        width: 100%;
+    }
+
+    .projects .container .project_upper p:last-of-type {
+        width: 100%;
+    }
+
+    .projects .container .project_list ul .nav-item .nav-link {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .projects .tab-content {
+        margin: 15px 0 !important;
+        padding: 15px 0 !important;
+    }
+
+    .projects .container .project_list ul{
+     display: block !important;
+    }
+    .projects .container .project_list ul .nav-item {
+        width: 100%;
+    }
+
+    .projects .container .project_list ul .nav-item .nav-link{
+        width: 100%;
+        border: 1px solid black !important;
+        text-align: left;
+        font-size: 20px;
+        border-radius: 0 !important;
+    }
+
+    .owl-carousel .item .wrapper .content_wrapper p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .owl-carousel .item .wrapper .content_wrapper .name h4 {
+        text-align: center;
+    }
+
+    .testimonials .owl-carousel .content_wrapper span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(187, 180, 180);
+        opacity: 0.5;
+    }
+
+    .testimonials .container .header-section p:first-of-type {
+        font-size: 30px;
+    }
+
+    .testimonials .container .header-section p:last-of-type {
+        width: 100%;
+    }
+
+    .build .container .header-section h3 {
+        width: 100% !important;
+        font-size: 30px !important;
+    }
+
+    .build .container .header-section p {
+        text-align: center;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    footer .container .copyright .copyright_right {
+        text-align: center !important;
+    }
+
+    footer .container .updates {
+        margin: 0 !important;
+    }
+
+    footer .container .copyright_left p {
+        font-size: 15px !important;
+    }
+}
+
+* Light theme */ #myBody {
+    background-color: white;
+}
+
+#switchButton {
+    background-color: white !important;
+    transition: all 1s;
+}
+
+#switchButton:hover {
+    background-color: black !important;
+}
+
+#switchButton .fa-sun {
+    display: none;
+}
+
+#switchButton .fa-moon {
+    display: block;
+}
+
+#switchButton:hover {
+    color: #dc4f72;
+}
+
+/* Dark Theme*/
+.dark#myBody {
+    background-color: #222;
+}
+
+.dark #switchButton {
+    background-color: black !important;
+    transition: all 1s;
+}
+
+.dark #switchButton:hover {
+    background-color: white !important;
+}
+
+.dark header nav {
+    background-color: black !important;
+}
+
+.dark .navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.dark .navbar-light .navbar-nav .nav-link.active {
+    color: rgb(245, 101, 125) !important;
+}
+
+.dark #switchButton .fa-sun {
+    display: block;
+    color: rgb(245, 101, 125);
+}
+
+.dark header nav .container .navbar-collapse ul li button {
+    color: white !important;
+    transition: all 0.5s;
+    background-color: black !important;
+}
+
+.dark header nav .container .navbar-collapse ul li button:hover {
+    color: #dc4f72 !important;
+    background-color: white !important;
+}
+
+.dark .carousel {
+    background-image: linear-gradient(#222, rgba(255, 255, 255, 0.92)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/banner.jpg);
+}
+
+.dark .carousel .container .row .carousel_left h1 {
+    color: white !important;
+}
+
+.dark .carousel .container .row .carousel_left button {
+    background-color: #222 !important;
+    color: white;
+    transition: all 1s;
+}
+
+.dark .carousel .container .row .carousel_left button:hover {
+    background-color: white !important;
+    color: #dc4f72;
+}
+
+.dark .chooseUs {
+    background-color: #222;
+}
+
+.dark .chooseUs .container h1 {
+    color: white;
+}
+
+.dark .chooseUs .container .wrapper .row .col-12 .wrapper {
+    background-color: black !important;
+    border: 1px solid gray;
+}
+
+.dark .about {
+    background-color: #222 !important;
+}
+
+.dark .aboutus_left h1 {
+    color: white !important;
+}
+
+.dark .about .container .aboutus_left button {
+    background-color: black !important;
+}
+
+.dark .about .container .aboutus_left button:hover {
+    background-color: white !important;
+    color: #dc4f72;
+}
+
+.dark .about .container .aboutus_right img {
+    transition: all 1s;
+}
+
+.dark .about .container .aboutus_right img:hover {
+    box-shadow: -1px 4px 5px 2px rgba(128, 128, 128, 0.4) !important;
+}
+
+.dark .about .container .wrapper .row .col-12 .wrapper {
+    background-color: black !important;
+    transition: all 0.5s;
+}
+
+.dark .about .container .wrapper .row .col-12 .wrapper:hover {
+    box-shadow: -1px 4px 5px 2px rgba(128, 128, 128, 0.4) !important;
+}
+
+.dark .about .container .wrapper .row .col-12 .wrapper h1 {
+    color: white !important;
+}
+
+.dark .solution {
+    background-color: #222 !important;
+}
+
+.dark .solution .solution_upper p {
+    color: white;
+}
+
+.dark .card-title {
+    color: white !important;
+}
+
+.dark .card-body .card-text:nth-of-type(2) {
+    color: gray !important;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
+
+.dark .card {
+    background-color: black;
+    color: white;
+}
+
+.dark .card:hover {
+    box-shadow: -1px 4px 5px 2px rgba(128, 128, 128, 0.4);
+}
+
+.dark .Questions {
+    background-color: #222 !important;
+}
+
+.dark .Questions .header-section h3 {
+    color: white !important;
+}
+
+.dark .projects .project_upper p:first-of-type {
+    color: white !important;
+}
+
+.dark .projects .container .project_list ul .nav-item .nav-link {
+    background-color: #222;
+    color: white !important;
+}
+
+.dark .projects .container .project_list ul .nav-item .nav-link.active {
+    color: #dc4f72 !important;
+}
+
+.dark .tab-content .tab-pane .wrapper .row .col-lg-6 button {
+    border: 1px solid rgb(245, 101, 125) !important;
+    color: rgb(245, 101, 125) !important;
+    background-color: white;
+}
+
+.dark .tab-content .tab-pane .wrapper .row .col-lg-6 button:hover {
+    color: white !important;
+}
+
+.dark .tab-pane .wrapper .row h1 {
+    color: white !important;
+}
+
+.dark .testimonials {
+    background-image: linear-gradient(#222, rgba(255, 255, 255, 0.92)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/b2.jpg);
+}
+
+.dark .testimonials .container .header-section p:first-of-type {
+    color: white !important;
+}
+
+.dark .owl-carousel .item {
+    background-color: #222 !important;
+}
+
+.dark .owl-carousel .item .content_wrapper p {
+    color: white;
+}
+
+.dark .build .header-section h3 {
+    color: white !important;
+}
+
+.dark footer .row h3 {
+    color: white !important;
+}
+
+.dark footer{
+    background-image: linear-gradient(#7e7373, rgba(200, 183, 183, 0.92)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/b2.jpg);;
+}
+
+.dark footer .container .updates {
+    background-color: white;
+}
+
+.dark footer .copyright_left p {
+    color: white !important;
+}
+
+.dark footer .copyright_left p span {
+    color: white !important;
+}
+
+.dark footer .copyright_right a {
+    color: white !important;
+}
